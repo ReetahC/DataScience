@@ -2,6 +2,10 @@
 
 Análise abrangente de dados SAF-T (Sistema de Arquivo de Faturas) com pipeline ETL automatizado, testes de qualidade de dados e dashboard interativo com drilldown.
 
+> **🌐 Dashboard Online:** [Ver em Streamlit Cloud](https://share.streamlit.io/ReetahC/DataScience/main/dashboard_drilldown.py)  
+> **📦 Repositório:** [github.com/ReetahC/DataScience](https://github.com/ReetahC/DataScience)  
+> **👤 Autor:** Rita Costa | **📧 Email:** ritachavescosta@gmail.com
+
 ## 📋 Conteúdo do Projeto
 
 ### 1️⃣ **Pipeline ETL Reutilizável**
@@ -74,6 +78,21 @@ source .venv/bin/activate  # macOS/Linux
 # Instalar dependências
 pip install pandas numpy matplotlib openpyxl streamlit
 ```
+
+## 🌐 Deploy
+
+### Streamlit Community Cloud (Recomendado)
+1. Vai a [share.streamlit.io](https://share.streamlit.io)
+2. Faz login com GitHub
+3. Clica em "New app"
+4. Seleciona:
+   - **Repository:** `ReetahC/DataScience`
+   - **Branch:** `main`
+   - **Main file path:** `dashboard_drilldown.py`
+5. Clica "Deploy!"
+
+**URL da App Online:**  
+🔗 https://share.streamlit.io/ReetahC/DataScience/main/dashboard_drilldown.py
 
 ## 🚀 Como Usar
 
